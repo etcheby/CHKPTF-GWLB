@@ -3,8 +3,7 @@
 This template leverages Terraform aws_cloudformation_stack resource to:
 
 * Deploy Check Point ASG for GWLB stack in a new VPC and relevant Subnets (NAT, GWLBe, TGW, Public) based on selected number of AZs; 
-* New TGW, TGW Security VPC Attachment; 
-* Mgmt Server is optional - (if needed use CHECKPOINT MGMT SERVER section in main.tf)
+* Deploy Mgmt Server in AWS (optional) - if needed use parameters from CHECKPOINT MGMT SERVER section in main.tf
 
 It also deploys:
 
